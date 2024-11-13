@@ -2,6 +2,8 @@ import Illustration from "@/app/components/illustration";
 import { AppleCardsCarouselDemo } from "./components/AppleCardsCarousel";
 import Link from "next/link";
 import { HeroScrollDemo } from "./components/hero";
+import { HeroParallaxDemo } from "./components/HeroParallax";
+import Cta from "./components/cta";
 
 export default function Page() {
   return (
@@ -37,6 +39,8 @@ export default function Page() {
             <div className="">
               <HeroScrollDemo/>
               <AppleCardsCarouselDemo />
+              <HeroParallaxDemo />
+              <Cta/>
             </div>
 
           </div>
